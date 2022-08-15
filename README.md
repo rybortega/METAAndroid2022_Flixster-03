@@ -1,26 +1,24 @@
-# Project 2 - Flixster
+# Project 3 - Flixster Part 1
 
 **Name of your app** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
 Time spent: 20 hours spent in total
 
-## User Stories
+## Features
 
 The following **required** functionality is completed:
 
-* [x] User can **scroll through current movies** from the Movie Database API
-* [x] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-* [x] For each movie displayed, user can see the following details:
-  * [x] Title, Poster Image, Overview (Portrait mode)
-  * [x] Title, Backdrop Image, Overview (Landscape mode)
-* [x] Allow user to view details of the movie including ratings within a separate activity
+- [X] (6pts) **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
+- [X] (6pts) **Parse through JSON data and implement a RecyclerView to display all movies**
+- [X] (6pts) **Use Glide to load and display movie poster images**
 
 The following **stretch** features are implemented:
 
-* [x] Improved the user interface by experimenting with styling and coloring.
-* [x] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
-* [x] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
-* [x] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
+- [X] Improve and customize the user interface through styling and coloring
+- [X] Implement orientation responsivity
+  - App should neatly arrange data in both landscape and portrait mode
+- [X] Implement Glide to display placeholder graphics during loading
+  - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
 
 The following **additional** features are implemented:
 
